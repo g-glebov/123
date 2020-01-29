@@ -1,0 +1,47 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ClassDiagram MajorVersion="1" MinorVersion="1">
+  <Class Name="pr03v25_KhromovaOM.PurchaseInformation">
+    <Position X="5.75" Y="0.75" Width="1.75" />
+    <TypeIdentifier>
+      <HashCode>AEAAAABBAQIgAAAGIIAAAAAEAAAAAACAgAABgIAAAAA=</HashCode>
+      <FileName>purchaseInformation .cs</FileName>
+    </TypeIdentifier>
+    <ShowAsAssociation>
+      <Property Name="Fabric" />
+      <Property Name="Payment" />
+      <Property Name="Colors" />
+    </ShowAsAssociation>
+  </Class>
+  <Class Name="pr03v25_KhromovaOM.SalesInformation">
+    <Position X="9.25" Y="0.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAQAAAABAAAkAAAAAAAAAAAAQAAAAAAAgAAAAAA=</HashCode>
+      <FileName>salesInformation.cs</FileName>
+    </TypeIdentifier>
+    <ShowAsAssociation>
+      <Property Name="PurchaseInformation" />
+    </ShowAsAssociation>
+  </Class>
+  <Enum Name="pr03v25_KhromovaOM.Payment">
+    <Position X="1" Y="0.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAEAAAAAAAAAAAAEAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Payment.cs</FileName>
+    </TypeIdentifier>
+  </Enum>
+  <Enum Name="pr03v25_KhromovaOM.Colors">
+    <Position X="1" Y="2.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>ABAAAAIAAEAAAgAAAAAABAAQEAACAAAAAgAAAAAAAQA=</HashCode>
+      <FileName>Colors.cs</FileName>
+    </TypeIdentifier>
+  </Enum>
+  <Enum Name="pr03v25_KhromovaOM.Fabric">
+    <Position X="3" Y="1.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAQAAAAAEAAAAAAAAAAABAAAA=</HashCode>
+      <FileName>Fabric.cs</FileName>
+    </TypeIdentifier>
+  </Enum>
+  <Font Name="Segoe UI" Size="9" />
+</ClassDiagram>
